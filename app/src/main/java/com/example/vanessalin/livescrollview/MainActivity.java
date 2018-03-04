@@ -1,7 +1,10 @@
 package com.example.vanessalin.livescrollview;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ArrayAdapter;
 import java.util.ArrayList;
@@ -25,6 +28,15 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<>(MainActivity.this,
                 android.R.layout.simple_list_item_1, arrayCities);
         lv.setAdapter(adapter);
+
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                Intent myIntent = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(myIntent);
+            }
+        });
 
     }
     @Override

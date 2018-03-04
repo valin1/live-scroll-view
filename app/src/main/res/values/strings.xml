@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">LiveScrollView</string>
-    <string-array name = "array_cities">
+    <string-array name="array_cities">
         <item> New York City, NY </item>
         <item> Los Angeles, CA </item>
         <item> Chicago, IL </item>
@@ -24,4 +24,81 @@
         <item> Denver, CO </item>
 
     </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="style_json">
+[
+  {
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#e2e3e8\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"administrative\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#fbfffd\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"poi\",
+    \"elementType\": \"geometry.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#f3bbbc\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"poi.park\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#b6d2b1\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#fcfcfa\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.highway\",
+    \"elementType\": \"geometry.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#fcfcfa\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.highway\",
+    \"elementType\": \"geometry.stroke\",
+    \"stylers\": [
+      {
+        \"color\": \"#fcfcfa\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"water\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#deeff5\"
+      }
+    ]
+  }
+]
+  </string>
 </resources>
