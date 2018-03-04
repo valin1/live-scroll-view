@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LiveScrollView</string>
+    <string-array name = "array_cities">
+        <item> New York City, NY </item>
+        <item> Los Angeles, CA </item>
+        <item> Chicago, IL </item>
+        <item> Houston, TX </item>
+        <item> Philadelphia, PA </item>
+        <item> Phoenix, AZ </item>
+        <item> San Antonio, TX </item>
+        <item> San Diego, CA </item>
+        <item> Detroit, MI </item>
+        <item> San Jose, CA </item>
+        <item> Austin, TX </item>
+        <item> Jacksonville, FL </item>
+        <item> San Francisco, CA </item>
+        <item> Indianapolis, IN  </item>
+        <item> Columbus, OH</item>
+        <item> Fortworth, TX </item>
+        <item> Charlotte, NC </item>
+        <item> Seattle, WA </item>
+        <item> El Paso, TX </item>
+        <item> Dallas, TX</item>
+        <item> Denver, CO </item>
+
+    </string-array>
+</resources>
